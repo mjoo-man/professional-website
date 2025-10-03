@@ -1,53 +1,5 @@
 [[main]]
-name = "About"
-pageRef = "aboutme"
-weight = 1
-
-[[main]]
 name = "CV"
 # pageRef = "CV"
 url = "/files/cv.pdf" # use this to link directly
 weight = 2
-
-[[main]]
-name = "Projects"
-pageRef = "projects"
-weight = 3
-
-[[main]]
-name = "Trips"
-pageRef = "trips"
-weight = 4
-
-[[main]]
-name = "Camping"
-parent = "Trips"
-pageRef = "trips/camping"
-weight = 5
-
-
-[[main]]
-name = "Domestic"
-parent = "Trips"
-pageRef = "trips/domestic"
-weight = 6
-
-
-[[main]]
-name = "International"
-parent = "Trips"
-pageRef = "trips/international"
-weight = 7
-
-
-[[main]]
-name = "Reading List"
-pageRef = "book_review"
-weight = 7
-
-
-# [[main]]
-# name = "Thoughts"
-# pageRef = "thought"
-# weight = 8
-# 
