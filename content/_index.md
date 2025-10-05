@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "My Enginering Project Portfolio"
 description: "A Collection of things I've built over the years"
 layout: list
 cascade:
@@ -13,8 +13,6 @@ cascade:
 A Collection of things I've built over the years
 {{< /lead >}}
 
-This section contains some demo pages that show how Blowfish renders different types of content. You can also see an example [taxonomy listing]({{< ref "tags" >}}) page.
-
-_**Sidenote:** This page is just a standard Blowfish article listing and Hugo has been configured to generate a `samples` content type and display article summaries._
+_As of Oct 5, 2025 this page is still a work in progress, I'll work to get is up to speed soon_
 
 ---
