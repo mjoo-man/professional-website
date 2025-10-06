@@ -19,6 +19,7 @@ However these mechanical models are complicated, and constructing experiments to
 
 The attached final poster presents my work on the design of a fishook pulley system to transfer tensile loads to the specimen that avoids the stress sheilding effects of rigid clamps. The poster was presented at a final public research symposium at the end of the semester.
 
+While this was my first introduction to research and I enjoyed the process, I learned that I do not have the stomach to handle organic components for a living. 
 
 <object data="https://mjoo-man.github.io/personal-website-v02/files/BMEL_Oevermann_Micah_Final_Poster.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://mjoo-man.github.io/personal-website-v02/files/BMEL_Oevermann_Micah_Final_Poster.pdf">
