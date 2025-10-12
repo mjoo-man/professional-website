@@ -1,6 +1,6 @@
 +++
 date = '2019-04-24T14:55:36-05:00'
-title = 'Bi-Axial Tensile Testing for Soft Tissues'
+title = 'Undergrad Research: Bi-Axial Tensile Testing for Soft Tissues'
 
 showReadingtime = false
 showWordCount = false
