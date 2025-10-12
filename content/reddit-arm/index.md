@@ -8,7 +8,7 @@ showDate = true
 noindex = true
 summary = "Built a 6 degree-of-freedom stepper driven arm, honestly not a great design"
 
-draft = true
+draft = false
 +++
 
 # Motivation

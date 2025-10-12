@@ -1,6 +1,6 @@
 +++
 date = '2020-12-06T09:28:45-05:00'
-title = 'BakerRisk Intern Projects'
+title = 'Intern Projects: BakerRisk'
 
 showReadingtime = false
 showWordCount = false
