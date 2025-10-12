@@ -1,5 +1,5 @@
 ---
-title: "My Enginering Project Portfolio"
+title: "Micah's Project Portfolio"
 description: "A Collection of things I've built over the years"
 layout: list
 cascade:
