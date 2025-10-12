@@ -1,9 +1,8 @@
 ---
-title: "RoboBall Series: Part 1 - Inner Pendulum"
+title: "Graduate Project: RoboBall II"
 date: 2022-08-04
 draft: true
-description: "a description"
-tags: ["example", "tag"]
+description: "A high-level overview of the 4-years I spent with the RoboBall team at Texas A&M"
 image: "featured.png"
 ---
 

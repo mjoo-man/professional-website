@@ -1,5 +1,5 @@
 ---
-title: "Micah's Project Portfolio"
+title: "Micah's Portfolio"
 description: "A Collection of things I've built over the years"
 layout: list
 cascade:
@@ -9,10 +9,18 @@ cascade:
   hideFeatureImage: false
 ---
 
-{{< lead >}}
-A Collection of things I've built over the years
-{{< /lead >}}
+---
 
-_As of Oct 5, 2025 this page is still a work in progress, I'll work to get is up to speed soon_
+# External Links
+## {{< icon "github" >}} [My Github Page](https://github.com/mjoo-man)
+
+## {{< icon "graduation-cap" >}} [My Google Scholar Page](https://scholar.google.com/citations?user=lyQ8qi8AAAAJ&hl=en)
 
 ---
+# Files
+
+## {{< icon "download" >}} [pdf of my CV](/files/cv.pdf)
+
+---
+
+# Timeline of Projects
