@@ -1,6 +1,6 @@
 ---
-title: "RoboBall Project"
-date: 2025-06-04
+title: "RoboBall Series: Part 1 - Inner Pendulum"
+date: 2022-08-04
 draft: true
 description: "a description"
 tags: ["example", "tag"]
