@@ -1,5 +1,5 @@
 +++
-date = '2021-10-12'
+date = '2022-01-02'
 title = 'How not to build a robot arm'
 
 showReadingtime = false
@@ -17,9 +17,9 @@ I was in my last semester of undergrad and enrolled in MEEN 408/612: Robotic Man
 
 Part of the class focuses on different control strategies for manipulator arms. I was hooked. However I had no way of poking round with the control schemes other than with the equations in MATLAB, gross. 
 
-Around this time I had me Dr. Ambrose and agreed to a Phd in his lab. Prior to this I had saved up a decent chunk of change to self-fund a masters. As a phd student I would get my tuition paid for so I would not need the money I saved right away. 
+Around this time I had met Dr. Ambrose and agreed to a PhD in his brand new lab. Prior to this I had saved up a decent chunk of change to self-fund a masters. As a phd student I would get my tuition paid for so I would not need the money I saved right away. 
 
-My next logical step? I loved 612, and I no longer need to self fund a masters. What if I tried to buy an arm to implement some of the things I learned in class? 
+My next logical step? I loved 612, and I no longer need to self fund a masters. What if I tried to buy an arm to implement some of the things I learned in that class? 
 
 great idea.
 
