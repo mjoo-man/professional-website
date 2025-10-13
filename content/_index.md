@@ -29,3 +29,5 @@ oh wow! a mechanical engineer that can code a website!
 ---
 
 # Timeline of Projects
+
+_{{< icon "triangle-exclamation" >}}_
