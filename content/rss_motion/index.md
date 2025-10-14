@@ -8,7 +8,7 @@ showDate = true
 noindex = true
 summary = "A brief project to tie in some of SWRI's motion planners into the RSS platform"
 
-draft = false
+draft = true
 +++
 
 # {{< icon "triangle-exclamation" >}} Current Project
