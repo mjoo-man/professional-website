@@ -11,12 +11,10 @@ summary = "A high level overview of my work on the RoboBall Robot"
 draft = false
 +++
 
-# {{< icon "triangle-exclamation" >}} Under construction
+# {{< icon "triangle-exclamation" >}} Under construction for now
 
 # Motivation
-This article will not go into detail on the specifics of the project. Rather touch on some key components and direct the reader to the relevant research article. 
-
-My time with RoboBall involved interconnected work within the three major disciplines in robotics: **Mechanical Design**, **Electrical Wiring**, and **Software Architecture**
+This article will touch on some key components of my time on the project and direct the reader to the relevant research article or chapter of my dissertation.
 
 # Mechanical Design of RoboBall
 RoboBall consists of two main mechanical parts:
