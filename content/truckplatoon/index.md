@@ -23,6 +23,8 @@ Our approach used a **compliant towbar** between the lead and follower vehicles 
 ## Initial Prototypes
 We spent a majority of the year looking into a collapsable ratcheting system. It showed promise but had serious safety concerns. With three months left we abandoned that radical idea to improve the existing design. 
 
+![Initial Ratcheting System](gen1.png)
+
 # Final Design Goals
 **My Role** at this point was coordinating my teamembers in various subteams. I worked with our main point of contact on the redesign to determine simple design goals we could hit by the end of the semester.
 
@@ -31,6 +33,11 @@ We sought to introduce **bi-directional compliance**, add an **extension system*
 I separated the team into two groups, one to work on the front extension system (left in the below picture) and another to repurpose the springs from the old design into a geometry that allowed the two way compliance (right). By dividing the work amoungst the team and letting them have individual ownership of the project I focused on assisting each as needed and handling part procurement and finding a space to build. 
 
 With this strategy we took this design from CAD-pavement in a little over a month while in the middle of senior year classes. 
+
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="/videos/senior_design_assembly_timelapse.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ![Our New Design](20211203_094436.jpg)
 
