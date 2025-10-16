@@ -30,10 +30,11 @@ RoboBall consists of two main mechanical parts:
  - Ring Interface and Hubcap
  - Outer Shell Prototypes -> [paper link](https://arc.aiaa.org/doi/abs/10.2514/6.2024-1961)
 
-<!-- <video controls autoplay muted loop style="width:100%; border-radius:12px;">
-  <source src="/videos/IMG_E6826.MOV" type="video/MOV">
+### Video: Shell Manufacturing
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="/videos/mold_spray.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> -->
+</video>
 
 ### Video: Assembly Timelapse
 
@@ -54,6 +55,7 @@ What limits the system? [Diss. chapter 4]
 - Water 
 - Slope Climbing -> [paper link](https://ieeexplore.ieee.org/abstract/document/11068434)
 
+### Video: RoboBall in Water
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
   <source src="/videos/ball_in_water.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -62,6 +64,7 @@ What limits the system? [Diss. chapter 4]
 # Advanced Topics
 - Modeling in Drake -> [RA-L Paper Link](https://ieeexplore.ieee.org/abstract/document/11197665)
 
+### Video: Screenrecord of URDF in Drake
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
   <source src="/videos/urdf_render.mp4" type="video/mp4">
   Your browser does not support the video tag.
