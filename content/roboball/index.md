@@ -11,7 +11,7 @@ summary = "A high level overview of my work on the RoboBall Robot"
 draft = false
 +++
 
-# {{< icon "triangle-exclamation" >}} Under construction for now
+{{< icon "triangle-exclamation" >}} _"If I had more time I'd have written a shorter letter"_ - Mark Twain (or Blaise Pascal). Eventually (Very soon!) this page will be a condensed version of my dissertation with more videos. Until then, here is a preprint of the [longer letter](/files/Oevermann_Dissertation_Compressed.pdf)
 
 # Motivation
 This article will touch on some key components of my time on the project and direct the reader to the relevant research article or chapter of my dissertation.
