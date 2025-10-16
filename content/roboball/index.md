@@ -54,11 +54,17 @@ What limits the system? [Diss. chapter 4]
 - Water 
 - Slope Climbing -> [paper link](https://ieeexplore.ieee.org/abstract/document/11068434)
 
-<!-- <video controls autoplay muted loop style="width:100%; border-radius:12px;">
-  <source src="/videos/ball_in_water_closeups.mp4" type="video/mp4">
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="/videos/ball_in_water.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> -->
+</video>
 
 # Advanced Topics
 - Modeling in Drake -> [RA-L Paper Link](https://ieeexplore.ieee.org/abstract/document/11197665)
+
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="/videos/urdf_render.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 - Rolling Asteroid Dynamics [ICRA 2026]
