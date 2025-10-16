@@ -46,9 +46,12 @@ To maximize efficiency, the BRM tests were combined with a separate study on sta
 ---
 
 ## DLG Testing Group 2 — Baseline Tests
-Without internal congestion, the flame cannot accelerate into a detonation, and the DLG produces only a large fireball—seen in the stills below. This run is used by the test engineers to calibrate the response of the system without the congestion.
+Without internal congestion, the flame cannot accelerate into a detonation, and the DLG produces only a large fireball—seen in the video below. This run is used by the test engineers to calibrate the response of the system without the congestion.
 
-{{< carousel images="gallery/still*" aspectRatio="16-9" interval="2500">}}
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="/videos/brm_blank_trimmed.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Most of **my work** with the DLG involved working independently in the field with one other intern, Tyler. We communicated with the full-time engineers over radio and were reponsible to the setup and calibration of the pressure guages mounted throughout the test pad, checking dessicant levels in the fuel delivery system, and maintenance of the test abort chord (a simple remote winch that would tear the plastic to vent any contained gas).  
 
