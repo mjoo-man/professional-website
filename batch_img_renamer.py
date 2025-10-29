@@ -80,7 +80,7 @@ def fix_img_rotations(folder):
 
 if __name__ == "__main__":
 
-    image_folder = "content/projects/bakerrisk/gallery/Photos-1-001"
+    image_folder = "content/roboball/gallery"
     valid_exts = (".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".JPG")
 
     fix_img_rotations(image_folder)
