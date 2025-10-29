@@ -14,8 +14,11 @@ draft = false
 {{< icon "triangle-exclamation" >}} _"If I had more time I'd have written a shorter letter"_ - Mark Twain (or Blaise Pascal). Eventually (Very soon!) this page will be a condensed version of my dissertation with more videos. Until then, here is a preprint of the [longer letter](/files/Oevermann_Dissertation_Compressed.pdf)
 
 # Motivation
-This article will touch on some key components of my time on the project and direct the reader to the relevant research article or chapter of my dissertation.
+NASA's Artemis Rocket launched in November of 2022, signifiying a renewed interest in returning humans to the moon in the near future. One aspect of the missions is to establish a permanent base on the lunar south pole. These bases would be close to permanently shadowed craters that have the potential to harbor frozen water safe from the sun. 
 
+Rovers shaped like spheres would provide a unique method to investigate the potential of these dark craters. Rather than risking a slow an methodical decent of a wheeled rover, a ball could roll down its slope with relative ease (2). Collect a sample (3), then send a sample retrieval rocket back to the crater lip to a waiting astronaut or rover (4). 
+
+![](gallery/RoboBall%20Mission.png)
 # Mechanical Design of RoboBall
 RoboBall consists of two main mechanical parts:
 1. Inner Mechanical Pendulum
