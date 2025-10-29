@@ -22,9 +22,6 @@ Rovers shaped like spheres would provide a unique method to investigate the pote
 
 ---
 
-Rovers shaped like spheres would provide a unique method to investigate the potential of these dark craters. Rather than risking a slow an methodical decent of a wheeled rover, a ball could roll down its slope with relative ease (2). Collect a sample (3), then send a sample retrieval rocket back to the crater lip to a waiting astronaut or rover (4). 
-
-![](gallery/RoboBall%20Mission.png)
 # Mechanical Design of RoboBall
 RoboBall consists of two main mechanical parts, the inner pendulum and outer shell. Avionics were sourced from a standard FIRST robotics kit, with the exception of a [VN-100 imu](https://www.vectornav.com/products/detail/vn-100)
 
@@ -93,10 +90,7 @@ However at certain speeds it produces a "rooster tail" effect that negatively im
 
 ---
 
-# Advanced Topics
-
-
-## Dynamic Modeling and Control
+# Dynamic Modeling and Control
 
 Drive steer paradigm with decoupled cylinder and full dynamics modeling
 Basic Dynamic Modeling of the system -> [paperlink](https://ieeexplore.ieee.org/abstract/document/10610555)
