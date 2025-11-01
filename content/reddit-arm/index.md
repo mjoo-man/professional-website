@@ -2,8 +2,8 @@
 date = '2022-01-02'
 title = 'Personal Project: Six DOF Stepper Arm'
 
-showReadingtime = false
-showWordCount = false
+showReadingtime = true
+showWordCount = true
 showDate = true
 noindex = true
 summary = "Built a 6 degree-of-freedom stepper driven arm, honestly not a great design"
