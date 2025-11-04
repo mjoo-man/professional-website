@@ -1,7 +1,7 @@
 ---
 title: "Roboball II Design"
 date: 2023-12-04T09:40:31-06:00
-draft: true
+draft: false
 description: ""
 summary: "The motivation and development of RoboBall II's Design"
 ---

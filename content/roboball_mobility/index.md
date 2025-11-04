@@ -1,7 +1,7 @@
 ---
 title: "Roboball Mobility Studies"
 date: 2024-05-04T09:49:01-06:00
-draft: true
+draft: false
 description: ""
 summary: "Case Studies of RoboBall on Water and Slopes"
 ---

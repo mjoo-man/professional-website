@@ -1,7 +1,7 @@
 ---
 title: "Roboball Modeling"
 date: 2025-06-04T09:57:14-06:00
-draft: true
+draft: false
 description: ""
 summary: "A description on how to model RoboBall in pyDrake"
 ---
