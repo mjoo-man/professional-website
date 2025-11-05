@@ -11,7 +11,8 @@ summary: "Case Studies of RoboBall on Water and Slopes"
 While RoboBall was originally designed to head into craters, its unique form factor lends it to mobility in other situations. 
 
 ### RoboBall on Slopes
-RoboBall has a limited ability to climb slopes. By designing the center of mass of the system to be as close to the edge of the robot as possible the maximum slope climbing angle can be increased. So we swapped out the bottom ballast plate for a heaver version made of copper to improve our climbing ability.
+RoboBall has a limited ability to climb slopes. By positioning the system’s center of mass as close to the outer edge of the sphere as possible, the maximum slope-climbing angle can be increased. To achieve this, we replaced the bottom ballast plate with a heavier version made of copper, improving the robot’s climbing performance.
+
 ![](gallery/ballast%20cmparison.png)
 
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
@@ -22,13 +23,16 @@ RoboBall has a limited ability to climb slopes. By designing the center of mass 
 My labmate Rishi took these test results to showcase the improved slope climbing ability of the 6ft diameter RoboBall: [paper link](https://ieeexplore.ieee.org/abstract/document/11068434)
 
 ### RoboBall in Water
-Since the robot is inflatable it can navigate from ground to water without any additional modifications. 
+Because the robot is inflatable, it can seamlessly transition from land to water without additional modifications.
+
 
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
   <source src="/videos/ball_in_water.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-However at certain speeds it produces a "rooster tail" effect that negatively impacts its forward thrust in water. We tested this by comparing drive motor encoder data with forward speeds measured from videos. The figure below shows snapshots from various tests at increasing speeds and rooster tails. Notice that the fastest speed with the greatest rooster tail has a reduction in forward velocity. Primarily due to a *rocket equation* effect where we are throwing mass in the wrong direction.  
+At higher speeds, however, RoboBall produces a “rooster tail” effect that reduces forward thrust in water. We tested this by comparing drive motor encoder data with forward speeds measured from video analysis. The figure below shows snapshots from tests conducted at increasing speeds and rooster tail magnitudes.  
+
+Notice that at the highest speeds—where the rooster tail is largest—the forward velocity actually decreases. This effect is primarily due to a *rocket equation* phenomenon, where mass (water) is being ejected in the wrong direction.
 
 ![](gallery/rooster_tail_diagram.png)
