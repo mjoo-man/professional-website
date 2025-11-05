@@ -4,22 +4,25 @@ date: 2023-12-04T09:40:31-06:00
 draft: false
 description: ""
 summary: "The motivation and development of RoboBall II's Design"
+
+tags: ["RoboBall", "Hardware Design"]
 ---
 
 # Motivation
-NASA's Artemis Rocket launched in November of 2022, signifiying a renewed interest in returning humans to the moon in the near future. One aspect of the missions is to establish a permanent base on the lunar south pole. These bases would be close to permanently shadowed craters that have the potential to harbor frozen water safe from the sun. 
+NASA’s Artemis rocket launched in November 2022, marking a renewed effort to return humans to the Moon. One of the key objectives of these missions is to establish a permanent base near the lunar south pole. These bases would be located close to permanently shadowed craters that may harbor frozen water, protected from direct sunlight.
 
-Rovers shaped like spheres would provide a unique method to investigate the potential of these dark craters. Rather than risking a slow an methodical decent of a wheeled rover, a ball could roll down its slope with relative ease (2). Collect a sample (3), then send a sample retrieval rocket back to the crater lip to a waiting astronaut or rover (4). 
+Spherical rovers could offer a unique way to explore these dark craters. Instead of relying on a slow and methodical descent of a wheeled rover, a ball-shaped rover could roll down the crater slope with relative ease (2), collect a sample (3), and then send a sample retrieval rocket back up to the crater rim, where it could be recovered by an astronaut or another rover (4).
+
 
 ![](gallery/RoboBall%20Mission.png)
 
 ---
 
 # Mechanical Design of RoboBall
-RoboBall consists of two main mechanical parts, the inner pendulum and outer shell. Avionics were sourced from a standard FIRST robotics kit, with the exception of a [VN-100 imu](https://www.vectornav.com/products/detail/vn-100)
+RoboBall consists of two main mechanical components: an inner pendulum and an outer shell. Most avionics were sourced from a standard FIRST Robotics kit, with the exception of a [VN-100 IMU](https://www.vectornav.com/products/detail/vn-100).
 
 ## 1. Inner Mechanical Pendulum
- The Pendulum was designed in two mirror halved with a basket connecting them. We kept the structural components mirror copies with a bunch of mounting holes for later avionics. 
+The pendulum was designed as two mirrored halves connected by a central basket. The structural components are mirror copies of each other and include numerous mounting holes for later avionics and subsystem integration.
 
  <!-- ![The side plates of the pendulum](gallery/roboball_halves.JPG "The mirrored halved of the RoboBall Pendulum")
   
@@ -32,10 +35,11 @@ The outer shell is comprised of aluminum mounting hardware that clamps various t
 
 ![](gallery/clamping_assembly_callout.png)
 
-Initial outer shell prototypes consisted of an inner yoga ball bladder constrained by an outer shell. 
+Initial outer shell prototypes used an inner yoga ball bladder constrained by an outer nylon jacket.
+
 ![](gallery/shell%20iterations.png "Initial Shell Iterations")
 
-The nylon jacket was prone to tearing so I pioneered a molding technique for an aerosolized bedliner polymer. [This paper](https://arc.aiaa.org/doi/abs/10.2514/6.2024-1961) describes the method and its advantages of tuneing the outer shape of the shell.
+However, the nylon jacket was prone to tearing. To address this, I developed a molding technique using an aerosolized bedliner polymer. [This paper](https://arc.aiaa.org/doi/abs/10.2514/6.2024-1961) describes the method and its advantages in tuning the outer shape of the shell.
 
 ![](gallery/molded_shell_process.png)
  
@@ -45,7 +49,7 @@ The nylon jacket was prone to tearing so I pioneered a molding technique for an 
 </video>
 
 # Assembly Timelapse
-The two parts come together to complete the robot.
+The pendulum and shell come together to complete the robot.
 
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
   <source src="/videos/assembly-timelapse.mp4" type="video/mp4">
