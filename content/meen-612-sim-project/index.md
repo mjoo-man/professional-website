@@ -11,6 +11,8 @@ MEEN 612: Mechanics of Manipulators is taught in the spring semester. Since I wa
 
 Since learning pydrake and CLI was outside of the scope of the class I setup the urdf, simulation environment and separate blank slate for the students to develop their code. 
 
+Here is a [link to the repository](https://github.com/mjoo-man/ur5e-in-pydrake)
+
 # Environment
 Orignally the students downloaded a VM loaded with ubuntu and used a local python virtual environment for packages. This was difficult to set up on all their machines. 
 
@@ -45,12 +47,12 @@ The effects of this controller are shown below.
 
 The students were tasked with developing a point tracking computed torque controller based on their class notes. 
 
-Since this repo post is public and students are very good at googling, I will not give the correct control law here. However it should look something like this.
+<!-- TODO: (mjoo) Since this repo post is public and students are very good at googling, I will not give the correct control law here. However it should look something like this.
 
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
   <source src="/videos/point-to-point.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
 
 **NOTE:**
 This is a personal copy of an earlier version of the project before I handed it off to Gray Thomas and Jonas Land to finish setting up the realtime portions for the class. 
