@@ -19,7 +19,9 @@ cascade:
 ---
 # Files
 
-## {{< icon "download" >}} [pdf of my CV](/files/cv.pdf)
+## {{< icon "download" >}} [pdf of my CV](/files/Oevermann_CV_Dec2025.pdf)
+
+## {{< icon "download" >}} [pdf of my resume](/files/Oevermann_resume_dec_2025.pdf)
 
 ---
 
