@@ -9,6 +9,8 @@ noindex = true
 
 summary = "An overview of my time as a testing intern at BakerRisk in San Antonio from Aug–Dec 2020."
 
+tags = ["Structures", "Dynamic Testing"]
+
 draft = false
 +++
 

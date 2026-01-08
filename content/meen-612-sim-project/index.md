@@ -4,6 +4,8 @@ date: 2025-03-04T13:39:04-06:00
 draft: false
 description: ""
 summary: "An assignment I designed for students taking MEEN 408/612 Mechanics of Manipulators"
+
+tags: ["Robot Arms", "pyDrake", "Dynamics"]
 ---
 
 # Motivation

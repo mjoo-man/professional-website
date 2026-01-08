@@ -4,6 +4,8 @@ date: 2025-06-04T09:57:14-06:00
 draft: false
 description: ""
 summary: "A description on how to model RoboBall in pyDrake"
+
+tags: ["RoboBall", "pyDrake", "Dynamics", "Control"]
 ---
 
 

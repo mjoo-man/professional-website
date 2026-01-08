@@ -9,6 +9,8 @@ noindex = true
 
 summary = "I helped deign a suture-fishook clamping mechanism to bi-axially tensile test soft tissues."
 
+tags = ["Hardware Design"]
+
 draft = false
 +++
 

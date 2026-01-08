@@ -8,6 +8,8 @@ showDate = true
 noindex = true
 summary = "Led a senior design team improving a compliant towbar for semi-truck platooning."
 draft = false
+
+tags = ["Hardware Design"]
 +++
 
 For my senior capstone, I was part of a team of six mechanical engineering students to improve a **hard-connect towbar system** for semi-truck platooning. 
