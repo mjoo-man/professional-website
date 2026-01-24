@@ -19,10 +19,7 @@ showScrollToTop = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "ball_closeup.jpg" # used in: hero, and card
-  # layout = "card" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "Standing_w_ball.jpg" # used in: hero, and card
-  
+  homepageImage = "ripples.svg" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
