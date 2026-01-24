@@ -1,20 +1,11 @@
 colorScheme = "blowfish"
-defaultAppearance = "light"
-autoSwitchAppearance = true
+defaultAppearance = "dark"
+autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
 disableTextInHeader = false
-giteaDefaultServer = "https://git.fsfe.org"
-forgejoDefaultServer = "https://v8.next.forgejo.org"
-firebase = { }
-fathomAnalytics = { }
-umamiAnalytics = { }
-selineAnalytics = { }
-buymeacoffee = { }
-verification = { }
-rssnext = { }
 
 [header]
 layout = "fixed"
@@ -27,15 +18,18 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = false
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "ball_closeup.jpg" # used in: hero, and card
+  # layout = "card" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "Standing_w_ball.jpg" # used in: hero, and card
+  
+  showRecent = true
   showRecentItems = 6
   showMoreLink = true
-  showMoreLinkDest = "docs"
+  showMoreLinkDest = "/projects/"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+  layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = false # only used when layout equals hero
 
 
@@ -76,7 +70,7 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 orderByWeight = false
-groupByYear = true
+groupByYear = false
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false

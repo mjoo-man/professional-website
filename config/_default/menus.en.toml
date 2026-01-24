@@ -3,3 +3,8 @@ name = "CV"
 # pageRef = "CV"
 url = "/files/cv.pdf" # use this to link directly
 weight = 2
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+weight = 1
