@@ -3,6 +3,7 @@ title: "Roboball Mobility Studies"
 date: 2024-05-04T09:49:01-06:00
 draft: false
 description: ""
+weight: 3
 summary: "Case Studies of RoboBall on Water and Slopes"
 tags: ["RoboBall", "Dynamics"]
 ---

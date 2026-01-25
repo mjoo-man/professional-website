@@ -1,12 +1,9 @@
 +++
 date = '2025-10-13'
-title = 'Current Project: Motion Controls for RSS'
+title = 'Modeling a Stewart Platform in Drake'
 
-showReadingtime = false
-showWordCount = false
-showDate = true
+
 noindex = true
-summary = "A brief project to tie in some of SWRI's motion planners into the RSS platform"
 
 draft = true
 +++

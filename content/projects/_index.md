@@ -12,7 +12,7 @@ cascade:
 ---
 
 {{< lead >}}
-Simple, yet powerful. Learn how to use Blowfish and its features.
+A few highlights of my past work
 {{< /lead >}}
 
 ---

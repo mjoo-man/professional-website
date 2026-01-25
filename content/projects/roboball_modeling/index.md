@@ -5,6 +5,7 @@ draft: false
 description: ""
 summary: "A description on how to model RoboBall in pyDrake"
 
+weight: 5
 tags: ["RoboBall", "pyDrake", "Dynamics", "Control"]
 ---
 
