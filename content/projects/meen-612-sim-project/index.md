@@ -1,7 +1,7 @@
 ---
 title: "Meen 612 Sim Project"
 date: 2025-03-04T13:39:04-06:00
-draft: false
+draft: true
 description: ""
 summary: "An assignment I designed for students taking MEEN 408/612 Mechanics of Manipulators"
 
