@@ -1,63 +1,56 @@
 ---
-title: "Roboball Modeling"
+title: "Roboball: Modeling with Drake and ros2"
 date: 2025-06-04T09:57:14-06:00
 draft: false
 description: ""
 summary: "A description on how to model RoboBall in pyDrake"
 
 weight: 5
-tags: ["RoboBall", "pyDrake", "Dynamics", "Control"]
+tags: ["RoboBall", "pyDrake", "Dynamics", "Control", "ros2", "Simulation", "URDF"]
 ---
 
 
-{{< katex >}}
-# Dynamic Modeling and Control
-There are two popular approaches to modeling a pendulum-driven sphere. One approach is to approximate the sphere as two rolling cylinders, one for the drive direction and one for steering. This method is commonly used for similar prototypes and works well with LQR-style control. An early version of this model and controller was published in [this paper](https://ieeexplore.ieee.org/abstract/document/10610555), with an improved controller using shell compensation described in [this paper](https://ieeexplore.ieee.org/abstract/document/10833720).
+Since RoboBall is a multi-student project I wanted to find more approachable ways to derive a dynamic model that could be passed from student to student. Using dynamic modeling software, such as [Drake](https://drake.mit.edu/), a simple urdf can yeild a numerical full dynamics model, trading lagrangian derivation for a programing exercise. 
 
+I chose drake as a due to its open source nature, support for python, recognitioin of floating bodies, and implementation of a soft contact model. Modeling RoboBall in drake requires configuring a urdf and tuning additional dynamics not handled by a rigid body dynamics program. 
 
-![](gallery/drive%20Steer%20as%20cylinders.png "A diagram representing the drive and steer directions of the ball as cylinders")
+## Step 1: Generate a urdf
+A proper urdf can be obtained from a solidworks assembly after specifying the underlying structure of the links. For RoboBall, that looks like a floating joint to the pitch center then two branches: one to the pendulum under gravity and another to the outer soft shell. 
 
-While the cylindrical approach simplifies control design, additional terms are often required to account for coupling between the drive and steering directions. More complete studies derive the full dynamics of a sphere rolling on a plane using a contact Jacobian formulation.
+![](gallery/featured.png "A diagram showing the urdf topology")
 
-## Typical Derivation of Contact Jacobian
-![](gallery/roboball_rolling_kinematics.png "Simplified rendering of a ball rolling in space")
+## Step 2: Account for Friction in the Gears and Outer Shell
+Drake's urdf parser only handles the rigid body components of the system. Any losses in the system must be measured and added to the model. The following picture shows a diagram of the frictional effects an outer shell models and where they feed into the drake model.
 
+![](gallery/Drake%20Modeling%20Diagram.png)
 
-In the figure above, `r0` denotes the stationary inertial frame and `r1` is attached to the rolling sphere. Define point `P1` as the center of the sphere, the origin of `r1`. Expressed in the sphere’s frame, this point is represented as:
+Models were tuned experimentally with the methods and results published in this [RA-L paper](https://ieeexplore.ieee.org/abstract/document/11197665).
 
-$$ {}^{r1}P1 = [0, 0, 0, 1] $$
+### Screenrecord of URDF in Drake (with the soft-body model)
+The completed model can be viewed in the Meshcat window.
 
-From this point, move a distance `R` down to the point of contact between the sphere and the plane. This vector, expressed in the inertial world frame, is:
-
-$$ {}^{r0}v2 = [0, 0, -R, 0] $$
-
-To obtain the contact constraints, transform `P1` and `v2` into a common frame using the transform ${}^{r0}T_{r1}$, then subtract them to find the contact point location `P2` expressed in the world frame:
-
-$$ {}^{r0}P2 = {}^{r0}T_{r1} {}^{r1}P1 - {}^{r0}v2 $$
-
-Differentiating `P2` with respect to time and reorganizing it into a Pfaffian form ($A\dot{q}$) yields the contact Jacobian for a sphere rolling on a plane.
-
-Combined with a dynamics algorithm of your choice, the full dynamics of the rolling sphere as:
-
-$$ M(q)\ddot{q} + H(q, \dot{q}) = A^T\dot{q} + \tau $$
-
-This is perhaps the most common approach to obtaining the dynamics of a system, and many variations can be found in the literature. However, there are a few practical inconveniences worth noting:
-
-1. ${}^{r0}T_{r1}$ is often defined using Euler angles, which are prone to singularities. A rolling sphere can pass through these singularities, so care must be taken to model such motion accurately. Using a quaternion representation can avoid this, but it introduces an extra degree of freedom and the challenge of converting body velocities between 3-DOF and 4-DOF spaces.  
-2. As system complexity grows, deriving dynamics equations becomes a bookkeeping exercise, whether done by hand or symbolically. This challenge is one of the key issues addressed by Roy Featherstone in his book [*Rigid Body Dynamics Algorithms*](https://link.springer.com/book/10.1007/978-1-4899-7560-7).
-
-My favorite quote from the book’s preface:
-```
-Rigid-body dynamics has a tendency to become a sea of algebra - R. Featherstone
-```
-Since RoboBall is a multi-student project I wanted to find more approachble ways to derive a dynamic model that could be passed from student to student. Using an implementation of featherstones algorithims in [Drake](https://drake.mit.edu/), a simple urdf can yeild a numerical full dynamics model, trading lagrangian derivation to a programing exercise.
-
-My work extending the ball into this area and notes on how to tune the soft body model for the ball was published in this [RA-L paper](https://ieeexplore.ieee.org/abstract/document/11197665).
-
-As an added bonus, drake displays results in a 3D urdf render instead of individual graphs of the states. It makes interpreting the results of dynamics studies more intuitive and fun. 
-
-## Screenrecord of URDF in Drake (with the soft-body model)
 <video controls autoplay muted loop style="width:100%; border-radius:12px;">
   <source src="/videos/urdf_render.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Step 3: Set up the `ros2` environment
+The simulation environment came after RoboBall had already been converted to `ros2`. So the same control logic on the ball can be fed against simulated data instead of sensors on the robot. An accurate digital twin would aid in tuning gains or preparing for dangerous testing environments without risking the hardware.
+
+![](gallery/sim_highlevel.png )
+
+On the robot the control logic runs on an onboard jetson nano in a docker container. For the simulation, the same code is configured to run locally on the laptop. 
+
+The simulation runs in a standalone ros node. The compute heavy simulation setup is run on the node instantiation. So only the integrator is stepped at every callback. The predicted IMU and encoder data is sent to the control code and recieves the desired command drive and steer action. 
+
+![](gallery/roboball_sim_diagram.png)
+
+# Results
+As a result we could drive the virtual robot using the existing control logic from the hardware. The robot is not as smooth in the video because the gains are the same ones used on the robot.
+
+Unfotunately the drawback of working in simulation is that I must model everything, even things we do not fully understand. Whereas in a physical system mother nature will do that for you. 
+
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="/videos/roboballsim.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
