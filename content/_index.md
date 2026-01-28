@@ -38,11 +38,11 @@ If you or someone you know is looking for a roboticist like me, let's get in tou
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem; margin-bottom: 1.5rem;">
  
-  {{< button href="/files/Oevermann_CV_Dec2025.pdf" type="secondary" >}}
+  {{< button href="/files/Oevermann_CV_Jan_2026.pdf" type="secondary" >}}
     {{< icon "download" >}} CV (PDF)
   {{< /button >}}
 
-  {{< button href="/files/Oevermann_resume_dec_2025.pdf" type="secondary" >}}
+  {{< button href="/files/Oevermann_resume_Jan_2026.pdf" type="secondary" >}}
     {{< icon "download" >}} Resume (PDF)
   {{< /button >}}
 </div>
