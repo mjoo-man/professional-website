@@ -4,8 +4,8 @@ date: 2025-11-04T10:03:29-06:00
 draft: true
 description: ""
 
-weight: 6
-tags: ["RoboBall", "Dynamics"]
+weight: 4
+tags: ["RoboBall", "Dynamics", "ICRA 2026"]
 ---
 
 {{< katex >}}
@@ -14,7 +14,7 @@ tags: ["RoboBall", "Dynamics"]
 Tests with RoboBall often ended with the system wobbling until it eventually started flipping end over end. Tests with more robust control systems only pushed this mode of instability to occur at higher speeds but would not remove it. This paper shows that the answer lies in a classic phenomenon from spacecraft dynamics that has gone largely unnoticed in ground robotics.
 
 # The Core Idea
-High-speed spherical robots often develop a growing wobble that can escalate into end-over-end flipping. We show that this behavior is not a control bug or modeling artifact, but a fundamental dynamic effect caused by the robot’s inertia interacting with rolling constraints.
+High-speed spherical robots often develop a growing wobble that can escalate into end-over-end flipping. The paper shows that this behavior is not a control bug or modeling artifact, but a fundamental dynamic effect caused by the robot’s inertia interacting with rolling constraints.
 Specifically, rolling spherical robots with oblate inertial profiles experience a relaxation effect closely related to the Intermediate Axis Theorem (also known as the tennis-racket or Dzhanibekov effect). Under dissipation, rotating bodies naturally reorient their angular momentum toward their major inertial axis. For rolling robots, this manifests as a gradual shift from stable forward rolling into unstable “hubcap-to-hubcap” motion.
 
 
@@ -24,7 +24,7 @@ Specifically, rolling spherical robots with oblate inertial profiles experience 
 </video>
 
 
-Relaxation dynamics are well understood in tumbling asteroids but has **never been systematically aplied to rolling systems with contact constraints**.
+Relaxation dynamics are well understood in tumbling asteroids but have **never been systematically applied to rolling systems with contact constraints**.
 
 # This paper:
 - Extends classical relaxation theory to spherical robots rolling on the ground

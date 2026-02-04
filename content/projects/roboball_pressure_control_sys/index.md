@@ -4,7 +4,7 @@ date: 2025-11-04T09:48:49-06:00
 draft: false
 description: ""
 
-weight: 4
+weight: 7
 summary: "The motivation and development of RoboBall II's Design"
 
 tags: ["RoboBall", "Hardware Design", "Control Systems"]
