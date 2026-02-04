@@ -24,7 +24,7 @@ The attached final poster presents my work on the design of a fishook pulley sys
 While this was my first introduction to research and I enjoyed the process, I learned that I do not have the stomach to handle organic components for a living. 
 
 <object data="https://mjoo-man.github.io/personal-website-v02/files/BMEL_Oevermann_Micah_Final_Poster.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://mjoo-man.github.io/personal-website-v02/files/BMEL_Oevermann_Micah_Final_Poster.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mjoo-man.github.io/personal-website-v02/files/BMEL_Oevermann_Micah_Final_Poster.pdf">Download PDF</a>.</p>
+    <embed src="https://micah-oevermann.com/files/BMEL_Oevermann_Micah_Final_Poster.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://micah-oevermann.com/files/BMEL_Oevermann_Micah_Final_Poster.pdf">Download PDF</a>.</p>
     </embed>
 </object>
