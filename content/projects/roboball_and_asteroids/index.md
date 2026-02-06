@@ -10,7 +10,6 @@ tags: ["RoboBall", "Dynamics", "ICRA 2026"]
 
 {{< katex >}}
 # The Problem
-
 Tests with RoboBall often ended with the system wobbling until it eventually started flipping end over end. Tests with more robust control systems only pushed this mode of instability to occur at higher speeds but would not remove it. This paper shows that the answer lies in a classic phenomenon from spacecraft dynamics that has gone largely unnoticed in ground robotics.
 
 # The Core Idea
@@ -32,7 +31,7 @@ Relaxation dynamics are well understood in tumbling asteroids but have **never b
 - Backs up the claim by conducting experiments on solid ground and water to chance the contact dynamics. 
 
 
-# Key Findings
+# Key findings from the study:
 - Free oblate bodies are stable, but once rolling constraints are introduced, stability changes fundamentally.
 - Translational rolling acts like structural dissipation in asteroids, driving momentum realignment.
 - Experiments with an empty rolling shell, a constrained pendulum, and tests on land versus water confirm the theoretical predictions.
@@ -54,7 +53,7 @@ Incorperating the  relaxation angle with an appropriate internal actuation metho
 Note that the control effort is proportional to speed so flywheels may be a better option than RoboBall's torque constrained pendulum.
 
 
-# Big Picture
+# TL;DR
 This work bridges satellite attitude dynamics and ground robotics, offering a compact framework to understand inertial effects in spherical robot performance
 and guide both mechanical design and control strategies for future robots.
 
