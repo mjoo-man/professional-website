@@ -54,3 +54,8 @@ If you or someone you know is looking for a roboticist like me, let's get in tou
   {{< /button >}}
 
 </div>
+
+### Work in progress
+Here’s a brief write-up of what’s currently cooking in my garage:
+
+{{< article link="/projects/can_stepper/" >}}
