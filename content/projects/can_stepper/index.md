@@ -9,7 +9,7 @@ tags: ["Work in Progress"]
 ---
 
 {{< alert >}}
-**Work in Progress** This is an active project. I'll keep this page updated with current status and future plans as often as I can.
+**Work in Progress** This is an active project. I'll keep this page updated with current status and future plans as often as I can. [or check out the github repo](https://github.com/mjoo-man/stepper_arm_project)
 {{< /alert >}}
 
 # Context
