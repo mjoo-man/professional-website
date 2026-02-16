@@ -31,6 +31,14 @@ I'd like to simplify this implementation by distributing control to each joint. 
 ![](featured.png)
 
 
+# Testbed approach
+I will take a testbed approach, where I'll develop the needed firmware on an isolated testbed. Then port everything onto the robot once I'm satisfied with it. 
+
+<video controls autoplay muted loop style="width:100%; border-radius:12px;">
+  <source src="gallery/testbed_spin.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 # Design notebook
 I prefer sketching ideas in powerpoint (a.k.a. ppt CAD), here is peek into my notes, they will develop as the projects matures
 <embed src="gallery/can_stepper_notebook_v01.pdf" type="application/pdf" width="100%" height="600px" />
