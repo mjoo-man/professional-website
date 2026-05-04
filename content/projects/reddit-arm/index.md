@@ -9,7 +9,7 @@ noindex = true
 summary = "Built a 6 degree-of-freedom stepper driven arm, honestly not a great design"
 
 weight = 6
-tags = ["Hardware Design", "Robot Arms"]
+tags = ["Hardware Design", "Robot Arms", "Stepper Arm" ]
 
 draft = false
 +++
